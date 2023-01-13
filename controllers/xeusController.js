@@ -19,7 +19,7 @@ const contactUs = asyncHandler(async (req, res) => {
 
   
    //send welcome mail
-  const subject = "Cryptea - Olubori Paul";
+  const subject = "NaijaTechBro from Cryptea";
   const send_to = email;
   const sent_from = process.env.EMAIL_USER;
   const reply_to = "hello@cryptea.me";
