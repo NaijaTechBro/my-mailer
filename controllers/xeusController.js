@@ -21,7 +21,7 @@ const contactUs = asyncHandler(async (req, res) => {
    //send welcome mail
   const subject = "NaijaTechBro from Cryptea";
   const send_to = email;
-  const sent_from = process.env.EMAIL_USER;
+  const sent_from = "hello@cryptea.me";
   const reply_to = "hello@cryptea.me";
   const fullname = user.name;
   const template = "xeus";
